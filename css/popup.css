@@ -1,0 +1,62 @@
+.modal-header {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #ffffff;
+    border-top-left-radius: calc(0.3rem - 1px);
+    border-top-right-radius: calc(0.3rem - 1px);
+}
+.close-pop{
+	background: white;
+    border: 0;
+}
+.img-pop{
+	width: 64%;
+    margin-left: 4%;
+}
+.titulo-popup{
+	font-size: 53px;
+	color: #6F9851;
+}
+.titulo-popup-agua{
+    font-size: 50px;
+    color: #6F9851;
+}
+.text-popup{
+	font-size: 20px;
+	line-height: 135%;
+}
+.text-popup-gestion{
+	font-size: 19px;
+	line-height: 132%;
+}
+.titulo-popup-agro {
+    font-size: 43px;
+    color: #6F9851;
+}
+.contenido-popup{
+	text-align: justify;
+    margin-left: -4%;
+}
+@media screen and (max-width:900px){
+	.contenido-modal{
+		width: 70%;
+	}
+	.textos{
+		padding: 150px;
+	}
+
+}
+
+@media screen and (max-width:500px){
+	.textos{
+		padding:50px;
+	}
+	.contenido-popup {
+		text-align: justify;
+		margin-left: 4%;
+		margin-right: 4%;
+	}
+}

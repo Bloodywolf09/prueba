@@ -1,0 +1,112 @@
+.contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 121%;
+    margin-top: -5%;
+}
+.contenedor figure{
+    position: relative;
+    height: 87%;
+    cursor: pointer;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 15px 15px rgb(0 0 0 / 50%);
+}
+.contenedor figure img{
+    width: 100%;
+    height: 105%;
+    transition: all 400ms ease-out;
+    will-change: transform;
+}
+.contenedor figure .capa{
+    position: absolute;
+    top: -42px;
+    width: 100%;
+    height: 113%;
+    background: linear-gradient(to bottom,transparent -56%,rgba(38, 170, 94, 0.77) 105%);
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: justify;
+}
+.contenedor figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor figure:hover > .capa h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor figure:hover > img{
+    transform: scale(1.3);
+}
+.contenedor figure .capa h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 71px;
+    transition: all 400ms ease-out;
+    margin-top: 28%;
+}
+.contenedor figure .capa p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 0.9;
+    width: 108%;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 11%;
+    text-align: justify;
+}
+
+.distancia-proy{
+    justify-content: center;
+    grid-gap: 58px;
+}
+.titulo-hover{
+    font-size: 0.85rem;
+}
+
+.contenedor-capa{
+    text-align: justify;
+    padding: 0px 41px 0px 34px;
+}
+
+
+@media (min-width: 1500px) {
+
+    .contenedor figure{
+        position:relative;
+         height: 344px;
+         cursor: pointer;
+         width: 465px;
+         overflow: hidden;
+         border-radius: 6px;
+         box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+     }
+     .contenedor figure .capa{
+        position: absolute;
+        top: -15px;
+        width: 100%;
+        height: 106%;
+        background: rgba(0,103,123,0.7);
+        transition: all 400ms ease-out;
+        opacity: 0;
+        visibility: hidden;
+       text-align: justify;
+    }
+     .titulo-hover{
+        font-size: 0.95rem;
+    }
+
+    .contenedor figure .capa p{
+        color: #fff;
+        font-size: 15px;
+        line-height: 0.9;
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        margin-top: 5%;
+    }
+}

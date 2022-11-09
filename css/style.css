@@ -1,0 +1,1191 @@
+/* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.6%;
+    background-color: #148395;
+    color: #fff;
+    justify-content: center;
+    z-index: 1000;
+    width: 88%;
+    height: 66px;
+   }
+   .nav-links a {
+    color: #fff;
+   }
+   /* LOGO */
+   .logo {
+    font-size: 32px;
+   }
+   .non-list{
+    list-style: none;
+   }
+   /* NAVBAR MENU */
+   .menu {
+    margin-left: -1%;
+    display: flex;
+    gap: 1.9em;
+    font-size: 18px;
+    margin-top: 2%;
+   }
+   .menu li:hover {
+    background-color: #148395;
+    border-radius: 5px;
+    transition: 0.3s ease;
+   }
+   .menu li {
+    padding: 5px 14px;
+   }
+   /* DROPDOWN MENU */
+   .services {
+    position: relative; 
+   }
+   .dropdown {
+    background-color: rgb(20, 131, 149);
+    padding: 1em 0;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+   }
+   .dropdown li + li {
+    margin-top: 10px;
+   }
+   .dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+   }
+   .dropdown li:hover {
+    background-color: #148395;
+   }
+   .services:hover .dropdown {
+    display: block;
+   }
+   .servicios{
+    text-align: -webkit-center;
+    position: absolute;
+    margin-top: -15%!important;
+    z-index: 1000;
+    background: #4D6C31;
+    color: white;
+   }
+
+   /*RESPONSIVE NAVBAR MENU STARTS*/
+/* CHECKBOX HACK */
+input[type=checkbox]{
+    display: none;
+   } 
+   /*HAMBURGER MENU*/
+   .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+   }
+
+   .cuadro-s{
+    margin-left: 10%;
+    width: 79%;
+   }
+
+   .ver-mas-proy{
+    margin-left: 85%!important;
+   }
+   .bolder{
+    font-weight: bolder;
+   }
+
+   .mt-5{
+    margin-top: 5%;
+   }
+   .mt-2{
+    margin-top: 2%;
+   }
+   .ml-2{
+    margin-left: 2%;
+   }
+   .ml-8{
+    margin-left: 8%;
+   }
+   .ml-9{
+    margin-left: 9%;
+   }
+   .ml-10{
+    margin-left: 10%;
+   }
+   .mt-11{
+    margin-top: 11%;
+   }
+   .mt-26{
+    margin-top: 26%;
+   }
+   .mt-60{
+    margin-top: 60%;
+   }
+
+   .mpet{
+      margin-top: 7%;
+   }
+   .ml-face{
+    margin-left: 6%;
+   }
+   .ml-link{
+    margin-left: 1%;
+    width: 4%;
+   }
+   .ml-insta{
+    margin-left: 11%;
+   }
+
+   /* lineas */
+
+
+   .imagen-servicios{
+    background-image: url("servicios.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 79%;
+    height: 59vh;
+   }
+   .v-line{
+    border-left: solid #f9f6f6;
+    height: 53%;
+    left: 28%;
+    position: absolute;
+  }
+
+
+
+   .cel-navbar{
+    padding-left: 0rem!important;
+    margin-top: -2%;
+   }
+   .nosotros{
+    margin-top: 19%;
+    }
+
+    .descrip{
+        font-size: 22px;
+        text-align: justify;
+    }
+
+    .descrip-nosotros{
+      font-size: 22px;
+      text-align: justify;
+      margin-left: 16%;
+      padding-right: 126px
+    }
+   .no-deco{
+    text-decoration: none!important;;
+   }
+   .desc-btn{
+    font-size: 21px;
+    width: 32%;
+    margin-top: -1%;
+    margin-left: 15%;
+   }
+   .precio{
+    margin-top: -9%;
+    margin-left: 10%;
+   }
+
+   .preciod{
+    margin-top: -9%;
+    margin-left: -14%;
+   }
+   .precioe{
+    margin-top: -9%;
+    margin-left: 33%;
+   }
+   .fond-ce{
+    background: #C8E7B9;
+    height: 5rem;
+   }
+   .back-img-proy{
+    background-image: url(images/proyecto.jpg);
+    background-size: cover;
+  }
+  .absolute{
+    position: absolute;
+  }
+  .content{
+    display: contents;
+  }
+  .grid-gaps{
+    
+    grid-gap: 10px;
+    
+  }
+
+  .grid-gap{
+    width: 100%;
+    grid-gap: 2.9rem;
+    margin-left: -3%;
+  }
+  .grid-valores{
+    grid-gap: 60px;
+  }
+  .m-valores{
+    margin-left: 8.3%;
+  }
+  .filtro {
+    background: linear-gradient(to bottom,transparent 50%,rgba(38, 170, 94, 0.77) 105%);
+    opacity: 2;
+    width: 23.1%;
+    height: 28.4rem;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: -8.4%;
+  }
+
+  .politicad{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 0%;
+  }
+  .text-valores{
+    font-size: 16px;
+  }
+  .texto-campos-gestion{
+    font-size: 12px;
+  }
+  .texto-campos-agua{
+    font-size: 14px;
+  }
+  .texto-campos-agro{
+    font-size: 16px;
+  }
+  .button-p{
+    color: #0a58ca;
+  }
+  .text-end{
+    text-align: end;
+  }
+  .img-proy{
+    margin-top: -5%;
+    width: 100%;
+  }
+  .titulop{
+    font-size: 80px;
+    text-align: -webkit-center;
+    margin-top: 5%;
+  }
+
+  .titulo-campos{
+    z-index: 1;
+    font-size: 87px;
+    margin-top: 9%;
+    font-weight: 400;
+  }
+
+   .font-19{
+    font-size: 19px;
+   }
+   .indicadores{
+    background: #0A3301;
+    margin-top: 6%;
+   }
+   .text-ind{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: -39%
+   }
+   .footer-fondo {
+    background-image: url(../images/imagen_filtro.png);
+    background-image: no-repeat;
+    background-image: fixed;
+    background-image: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .trab-nos{
+    text-align: center;
+    line-height: 30px;
+    margin-top: 7%;
+    font-weight: bolder;
+  }
+  .titulo-servicios{
+    font-size: 68px;
+    font-weight: 400;
+  }
+  .titulo-nos{
+    font-size: 55px;
+    margin-top: -3%;
+    margin-left: 16%;
+  }
+  .img-servicios{
+    width: 57%;
+  }
+  .sub-nos{
+    font-size:37px;
+  }
+
+  .ultimo{
+    font-size: 15px;
+    position: absolute;
+  }
+
+  .tamaño{
+    width: 100%;
+    font-size: 17px;
+  }
+
+  .tamaño2{
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .quienes-somos{
+    font-size: 46px;
+  }
+
+  .proyectos{
+    font-size: 78px;
+  }
+
+  .sub-quienes{
+    font-size: 25px;
+  }
+
+  .text-align-justify{
+    text-align: justify;
+  }
+  .text-align-center{
+    text-align: center;
+  }
+  .text-quienes {
+    padding-right: 10%;
+    padding-left: 9.4%;
+    font-size: 27px;
+    line-height: 30px;
+  }
+  .mdolar{
+    margin-top: 7%;
+  }
+  .img-mision{
+    width: 102%;
+      max-width: 101.9%;
+      margin-left: -1%;
+  }
+
+  .img-campos{
+    margin-left: 9%;
+    width: 81%;
+  }
+
+  .iconos-foo{
+    width: 9%;
+  }
+
+  .iconos-foo2{
+    width: 9%;
+  }
+
+  .font-titulom{
+    font-size: 50px;
+  }
+
+  .text-blue {
+    color: #148395;
+  }
+
+  .titulo-valores {
+    color: #4D6C31;
+    margin-top: 26%;
+    font-size: 60px;
+    margin-left: 31%;
+  }
+
+  .titulo-org {
+    color: #4D6C31;
+    font-size: 60px;
+  }
+
+  .titulo-energias{
+    text-align: -webkit-auto;
+    margin-top: -34%;
+    margin-left: 6%;
+    font-size: 71px;
+    font-weight: bolder;
+    line-height: 102%;
+  }
+  .titulo-aguas{
+    text-align: -webkit-auto;
+    margin-top: -19%;
+    margin-left: 3%;
+    font-size: 71px;
+    font-weight: bolder;
+    line-height: 89%;
+  }
+  .titulo-agro{
+    text-align: -webkit-auto;
+    margin-top: -19%;
+    margin-left: 6%;
+    font-size: 71px;
+    font-weight: bolder;
+    line-height: 89%;
+  }
+
+  .titulo-trabaja{
+    font-size: 78px;
+    margin-top: -3%;
+  }
+
+  .cuadro-valores {
+    outline: solid;
+    color: #6F9851;
+  }
+
+  .cuadro-valoresp {
+    outline: solid;
+    color: #6F9851;
+    margin-top: 0%;
+    margin-left: 8.4%;
+  }
+  .pos-mision{
+    margin-top: -28%;
+    margin-left: 3%;
+    text-align: center;
+  }
+  .pos-vision{
+    margin-top: -28%;
+    margin-left: 56%;
+    text-align: center;
+  }
+  .video{
+		margin-top: -23%;
+    width: 94%;
+    max-width: 108%;
+    height: 34rem;
+    margin-left: -20%;
+	}
+
+  .imagen-quien{
+    width: 82%;
+  }
+  .imagen-campos{
+    width: 96%;
+    height: 43rem;
+  }
+  .imagenes-campos{
+    width: 96%;
+    margin-left: -6%;
+    height: 21rem;
+  }
+  .mt-campos{
+    margin-top:3%;
+  }
+
+  .letra-mv{
+    font-size: 17px;
+  }
+  .footer2{
+    background-color: #6C7D36;
+  }
+  .footer-inf{
+    margin-left: 10%;
+    font-size: 21px;
+  }
+  .siguenos {
+    font-size: 31px;
+    margin-left: 33%;
+  }
+  .trabaja-nosotros {
+    background: #00800000;
+    outline: white;
+    border: solid !important;
+    color: white;
+    width: 63%;
+    height: 12vh;
+    margin-left: 20%;
+    font-size: 29px;
+  }
+  .sombra-button{
+    box-shadow: 0px 0px 8px 1px black
+  }
+
+  .descr-interes{
+    font-size: 22px;
+
+  }
+  .imagen-logo2{
+    width: 220%;
+    height: auto;
+  }
+
+  .tamaño2022{
+    width: 38%;
+  }
+  .tamaño2020{
+    width: 16%;
+  }
+  .tamaño2020{
+    width: 20%;
+  }
+
+  .tamaño2020-2{
+    width: 27%;
+  }
+  .tamaño2020-4{
+    width: 65%;
+  }
+
+  .tamaño2020-3{
+    width: 45%;
+  }
+  .marginf-30{
+    margin-left: 30%;
+  }
+  .marginf-17{
+    margin-left: 17%;
+  }
+  .marginf-6{
+    margin-left: 6%;
+  }
+  .marginf-12{
+    margin-left: 12%;
+  }
+  .marginf-18{
+    margin-left: 18%;
+  }
+  .marginf-18-7 {
+    margin-left: 18.7%;
+}
+  .marginf-21{
+    margin-left: 21%;
+  }
+  .marginf-26{
+    margin-left: 26%;
+  }
+  .marginf-13{
+    margin-left: 13%;
+  }
+  .marginf-39{
+    margin-left: 39%;
+  }
+  .marginf-43{
+    margin-left: 43%;
+  }
+  .marginf-46{
+    margin-left: 46%;
+  }
+  .interes{
+    font-size: 73px;
+  }
+  .subinteres{
+    font-size: 27px;
+  }
+  .fechas{
+    padding-right: 1%;
+    padding-left: 9%;
+    font-size: 49px;
+  }
+   /* APPLYING MEDIA QUERIES */
+   @media (max-width: 768px) {
+    .imagen-logo2{
+      width: 175%;
+      height: auto;
+    }
+
+    .imagen-servicios{
+      background-image: url("servicios-m.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      width: 74%;
+      height: 219vh;
+      margin-top: 35%;
+     }
+
+    .menu { 
+    margin-left: -0%;
+    display:none;
+    position: absolute;
+    background-color: #148395;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+   }
+   .menu li:hover {
+    display: inline-block;
+    background-color:#148395;
+    transition: 0.3s ease;
+   }
+   .menu li + li {
+    margin-top: 12px;
+   }
+   input[type=checkbox]:checked ~ .menu{
+    display: block;
+   }
+   .hamburger {
+    display: block;
+   }
+   .dropdown {
+    left: 50%;
+    top: 30px;
+    transform: translateX(35%);
+   }
+   .dropdown li:hover {
+    background-color: #148395;
+   }
+   .cel-navbar{
+    padding-left: 0rem!important;
+    margin-top: 0%;
+   }
+   .servicios{
+    width: 77%;
+    margin-left: 11%;
+    text-align: -webkit-center;
+    position: absolute;
+    margin-top: -34%!important;
+    z-index: 1000;
+    background: #4D6C31;
+    color: white;
+    height: auto;
+   }
+   .img-servicios{
+    width: 43%;
+  }
+  .titulo-servicios{
+    margin-top: -50%;
+    font-size: 48px;
+    font-weight: 400;
+    margin-left: -13%;
+  }
+   .img-proy {
+    margin-top: -98%;
+    width: 151%;
+    max-width: 139%;;
+}
+   .nosotros{
+    margin-top: 390%;
+    }
+    .descrip{
+        font-size: 34px;
+        text-align: justify;
+        line-height: 34px;
+    }
+    .descrip-nosotros {
+      font-size: 23px;
+      text-align: center;
+      line-height: 33px;
+      padding-left: 0px;
+      padding-right: 38px;
+      margin-left: 9%;
+  }
+    .desc-btn{
+      font-size: 21px;
+      width: 83%;
+      margin-top: -7%;
+      margin-left: -37%;
+    }
+    .grid-gaps{
+      margin-left: -5%;
+      grid-gap: 25px;
+      
+    }
+    .grid-gap{
+      width: 107%;
+      grid-gap: 0.9rem;
+      margin-left: -10%;    
+      margin-top: -2%!important;
+    }
+    .text-ind{
+        font-size: 12px;
+        font-weight: bolder;
+        margin-left: -100%
+       }
+
+    .font-19{
+        font-size: 11px;
+    }
+    .mdolar{
+      margin-top: 7%;
+    }
+    .titulop{
+        font-size: 40px;
+        text-align: -webkit-center;
+        margin-top: 5%;
+    }
+    .titulo-campos{
+      z-index: 1;
+      font-size: 29px;
+      margin-top: 9%;
+      font-weight: 400;
+    }
+    .ver-mas-proy{
+        margin-left: 73%!important;
+       
+    }
+    .filtro {
+      background: linear-gradient(to bottom,transparent 50%,rgba(38, 170, 94, 0.77) 105%);
+      opacity: 2;
+      width: 29.2%;
+      height: 10.4rem;
+      position: absolute;
+      border-radius: 4px;
+      margin-top: -26.8%;
+  }  
+  .politicad{
+    text-decoration: none;
+    color: #fff;
+    margin-top: -5%;
+  }
+  .trab-nos{
+    text-align: center;
+    line-height: 7px;
+    margin-top: 10%;
+    font-weight: bolder;
+  }
+  .titulo-nos{
+    font-size: 63px;
+    margin-top: 2%;
+    margin-left: 6%;
+  }
+
+  .titulo-trabaja{
+    font-size: 30px;
+    margin-top: -2%;
+}
+
+  .sub-nos{
+    font-size:15px;
+  }
+  .iconos-foo{
+    width: 18%;
+  }
+
+  .iconos-foo2{
+    width: 14%;
+  }
+  .ultimo{
+    font-size: 15px;
+    position: absolute;
+  }
+  .tamaño{
+    width: 206%;
+    font-size: 17px;
+  }
+
+  .tamaño2{
+    width: 100%;
+    font-size: 17px;
+  }
+  .quienes-somos{
+    font-size: 36px;
+  }
+  .sub-quienes{
+    font-size: 17px;
+  }
+  .text-quienes {
+    padding-right: 1%;
+    padding-left: 1%;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .pos-mision {
+    margin-top: -67%;
+    margin-left: 4%;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .letra-mv {
+    font-size: 9px;
+    margin-top: -14%;
+  }
+  .text-valores{
+    font-size: 16px;
+  }
+  .img-mision {
+    width: 106%;
+    max-width: 106%;
+    margin-left: -3%;
+    height: 18rem;
+  }
+  .font-titulom {
+    font-size: 21px;
+  }
+  .pos-vision {
+    margin-top: -67%;
+    margin-left: 55%;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .m-valores{
+    margin-left: 0%;
+  }
+  .titulo-valores {
+    color: #4D6C31;
+    margin-top: -8%;
+    font-size: 60px;
+    margin-left: 2%;
+  }
+  .titulo-org {
+    color: #4D6C31;
+    font-size: 40px;
+  }
+  .cuadro-valores{
+    outline: solid;
+    width: 87%;
+    margin-left: 7%;
+    color: #6F9851;
+  }
+  .cuadro-valoresp {
+    outline: solid;
+    color: #6F9851;
+    width: 87%;
+    margin-top: 0%;
+    margin-left: 7.4%;
+  }
+  .footer-inf{
+    margin-left: 0%;
+    font-size: 17px;
+  }
+  .siguenos {
+    font-size: 23px;
+    margin-left: 22%;
+  }
+  .trabaja-nosotros {
+    background: #00800000;
+    outline: white;
+    border: solid !important;
+    color: white;
+    width: 75%;
+    height: 9vh;
+    margin-left: 5%;
+    font-size: 25px;
+  }
+  .ml-face{
+    margin-left: 6%;
+   }
+   .ml-link{
+    width: 12%;
+    margin-left: 6%;
+    margin-top: -2%;
+   }
+   .ml-insta{
+    margin-left: 25%;
+   }
+   .imagen-quien{
+    width: 99%;
+  }
+  .video{
+    margin-top: 30%;
+    width: 219%;
+    max-width: 227%;
+    height: 14rem;
+    margin-left: 23%;
+
+  }
+  .precioe{
+      margin-top: -9%;
+      margin-left: 5%;
+  }
+  .texto-campos-agro{
+    font-size: 13px;
+  }
+  .imagen-campos {
+    width: 94%;
+    margin-top: 96%;
+    height: 31rem;
+  }
+  .titulo-energias {
+    text-align: -webkit-auto;
+    margin-top: -77%;
+    margin-left: 10%;
+    font-size: 58px;
+    font-weight: bolder;
+    line-height: 89%;
+  }
+  .titulo-aguas {
+    text-align: -webkit-auto;
+    margin-top: -52%;
+    margin-left: 11%;
+    font-size: 48px;
+    font-weight: bolder;
+    line-height: 89%;
+  }
+  .imagenes-campos {
+    width: 96%;
+    margin-left: 0%;
+    height: 21rem;
+    margin-top: 6%;
+  }
+  .titulo-agro {
+    text-align: -webkit-auto;
+    margin-top: -58%;
+    margin-left: 12%;
+    font-size: 45px;
+    font-weight: bolder;
+    line-height: 89%;
+  }
+  .proyectos{
+    font-size: 60px;
+  }
+  .interes{
+    font-size: 42px;
+  }
+  .subinteres{
+    font-size: 20px;
+  }
+  .descr-interes{
+    font-size: 14px;
+  }
+  .tamaño2022 {
+    width: 78%;
+  }
+  .tamaño2020 {
+    width: 42%;
+  }
+  .tamaño2020-2 {
+    width: 56%;
+  }
+  .tamaño2020-4 {
+    width: 93%;
+  }
+  .marginf-6 {
+    margin-left: 8%;
+  }
+  .tamaño2020-3 {
+    width: 92%;
+  }
+
+  .fechas{
+    padding-right: 1%;
+    padding-left: 1%;
+    font-size: 40px;
+    margin-bottom: -1%;
+  }
+}
+
+/* Pc > 1500  */
+@media (min-width: 1500px) {
+  .navbar {
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.6%;
+    background-color: #148395;
+    color: #fff;
+    justify-content: center;
+    z-index: 1000;
+    width: 88%;
+    height: 77px;
+   }
+  .descrip{
+    font-size: 35px;
+    text-align: justify;
+  }
+  .grid-gap{
+    width: 100%;
+    grid-gap: 2.9rem;
+    margin-left: -1%;    
+  }
+  .grid-gaps{
+    grid-gap: 0px;
+  }
+  .titulo-servicios{
+    font-size: 70px;
+    font-weight: 300;
+  }
+  .cuadro-s{
+    margin-left: 9%;
+    width: 79.5%;
+   }
+  .titulo-nos{
+    font-size: 6rem;
+    margin-top: -3%;
+  }
+  .titulo-campos{
+    z-index: 1;
+    font-size: 87px;
+    margin-top: 9%;
+    font-weight: 400;
+  }
+  .desc-btn{
+    font-size: 39px;
+    width: 42%;
+    margin-top: -14%;
+   }
+   .img-servicios{
+    width: 42%;
+  }
+   .text-ind{
+    font-size: 43px;
+    font-weight: bolder;
+    margin-left: -61%
+   }
+   .fond-ce{
+    background: #C8E7B9;
+    height: 7rem;
+   }
+   .font-19{
+    font-size: 28px;
+   }
+   .filtro {
+    background: linear-gradient(to bottom,transparent 50%,rgba(38, 170, 94, 0.77) 105%);
+    opacity: 2;
+    width: 23.7%;
+    height: 40.8rem;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: -8.5%;
+  }
+  .ver-mas-proy{
+    margin-left: 78%!important;
+   }
+   .sub-nos{
+    font-size:44px;
+    margin-top: 3%;
+  }
+  .iconos-foo{
+    width: 10%;
+  }
+  .iconos-foo2{
+    width: 10%;
+  }
+  .tamaño{
+    width: 100%;
+    font-size: 25px;
+  }
+
+  .tamaño2{
+    width: 100%;
+    font-size: 28px;
+  }
+
+  .video{
+		width: 91%;
+    max-width: 91%;
+    height: 63rem;
+    margin-top: -35%;
+	}
+  .menu {
+    margin-left: 0%;
+    display: flex;
+    gap: 2em;
+    font-size: 25px;
+   }
+   .quienes-somos{
+    font-size: 85px;
+  }
+  .sub-quienes{
+    font-size: 46px;
+  }
+  .imagen-quien{
+    width: 82%;
+  }
+
+  .text-quienes {
+    padding-right: 10%;
+    padding-left: 9.4%;
+    font-size: 44px;
+    line-height: 28px;
+  }
+  .font-titulom{
+    font-size: 66px;
+  }
+
+  .letra-mv{
+    font-size: 24px;
+  }
+  .titulo-valores {
+    color: #4D6C31;
+    margin-top: 17%;
+    font-size: 84px;
+    margin-left: 31%;
+  }
+  .text-valores{
+    font-size: 21px;
+  }
+  .nosotros{
+    margin-top: 22%;
+  }
+  .siguenos {
+    font-size: 42px;
+    margin-left: 25%;
+  }
+  .trabaja-nosotros {
+    background: #00800000;
+    outline: white;
+    border: solid !important;
+    color: white;
+    width: 63%;
+    height: 9vh;
+    margin-left: 20%;
+    font-size: 39px;
+  }
+  .ml-face{
+    margin-left: 6%;
+    width: 4%;
+  }
+  .ml-link{
+    margin-left: 2%;
+    width: 4%;
+  }
+  .ml-insta{
+    margin-left: 12%;
+    width: 4%;
+  }
+  .texto-campos-gestion{
+    font-size: 16px;
+  }
+  .mt-60{
+    margin-top: 53%;
+  }
+  .imagen-campos{
+    width: 96%;
+    height: 71rem;
+  }
+  .titulo-energias{
+    text-align: -webkit-auto;
+    margin-top: -36%;
+    margin-left: 6%;
+    font-size: 117px;
+    font-weight: 400;
+    line-height: 102%;
+  }
+  .imagenes-campos{
+    width: 96%;
+    margin-left: -6%;
+    height: 34.77rem;
+  }
+  .titulo-aguas{
+    text-align: -webkit-auto;
+    margin-top: -20%;
+    margin-left: 3%;
+    font-size: 90px;
+    font-weight: 500;
+    line-height: 89%;
+  }
+  .titulo-agro {
+    text-align: -webkit-auto;
+    margin-top: -20%;
+    margin-left: 6%;
+    font-size: 90px;
+    font-weight: 500;
+    line-height: 89%;
+  }
+}
+
+
+@media (min-height: 700px) and (max-height: 839px) {
+  .nosotros{
+    margin-top: 444%;
+  }
+}
+
+
+@media (min-height: 840px) and (max-height: 980px) {
+  .nosotros{
+    margin-top: 480%;
+  }
+}
